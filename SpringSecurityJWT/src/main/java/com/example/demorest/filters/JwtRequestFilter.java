@@ -17,7 +17,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.example.demorest.services.MyUserDetailsService;
 import com.example.demorest.util.JwtUtil;
-
+//fingerprint scan
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
 	@Autowired
